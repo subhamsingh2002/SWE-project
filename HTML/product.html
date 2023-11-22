@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination</title>
+    <link rel="shortcut icon" href="/images/pngtree-initials-t-logo-vector-abstract-image_307450-removebg-preview.png" type="jpeg/png">
+</head>
+<link rel="stylesheet" href="/Style/product.css">
+
+<body>
+    <div class="nav">
+        <hr>
+        <nav>
+            <div id="logo">
+                <a href="">
+                    <h1 id="travelo">Travelo</h1>
+                </a>
+            </div>
+            <div class="anchors">
+                <div class="anchorsubs turnoff">
+                    <a href="/index.html">Home</a>
+                    <a href="#part7" id="aboutus">About Us</a>
+                </div>
+                <div class="anchorsubs ">
+                    <a href="/HTML/product.html">Destination</a>
+                    <a href="#part3" id="features" class="turnoff">Features</a>
+                </div>
+                <div class="anchorsubs turnoff">
+                    <a href="#">Pricing</a>
+                    <a href="#">Reviews</a>
+                </div>
+                <div class="anchorsubs turnoff">
+                    <a href="#" id="email-link">CONTACT US <i class="fa-solid fa-circle-arrow-right fa-beat"
+                            style="color: #000000;"></i></a>
+                </div>
+                <div class="anchorsubs">
+                    <a href="/HTML/SignupLogin.html" id="SignInUsername"><i class="fa-solid fa-user" style="color: #000000;"></i> Sign In</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div id="main">
+        <button id="slide-btn"><i class="fa-solid fa-bars" style="color: #000000;"></i></button>
+        <div class="filters" id="slide-div">
+            <button id="close-btn">Close</button>
+            <div class="pricefilter">
+                <p>Price</p>
+                <div>
+                    <button id="lowtohigh">Low to High</button>
+                    <button id="hightolow">High to Low</button>
+                </div>
+            </div>
+            <hr>
+            <div class="country">
+                <p>Search Any Country</p>
+                <input type="text" id="country" placeholder="Search any country name" required>
+            </div>
+            <hr>
+            <div class="plan">
+                <p>Holiday Range</p>
+                <div class="range">
+                    <p><span id="rangeValue"></span> Days</p>
+                    <input type="range" min="1" max="20" step="1" value="0" id="myRange">
+                    <button id="check">Check</button>
+                    <button id="cancel" style="display: none;">Cancel</button>
+                </div>
+            </div>
+        </div>
+        <hr id="hr">
+        <div class="products">
+            <div class="searchtitle">
+                <input type="text" id="search" placeholder="Search Any Place">
+            </div>
+            <div class="results" style="display: none;">
+                <h1 id="resH1">Search Something</h1>
+            </div>
+            <div class="cardlist">
+                <!-- append here  -->
+            </div>
+            <div class="pagination">
+                <!-- append pagination btns  -->
+            </div>
+        </div>
+    </div>
+
+    <div class="payment-form-container">
+        <div class="payment-form">
+            <span class="close-button">&times;</span>
+            <h2>Details</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="number">Number:</label>
+                <input type="text" id="card-number" name="number">
+                <label for="date">Date of Journey:</label>
+                <input type="date" id="date" name="date">
+                <input type="submit" id="submitinfo">
+            </form>
+        </div>
+    </div>
+
+    <div class="thank-you-container">
+        <span class="close-button">&times;</span>
+        <h2 class="thank-you-message">Thank You!</h2>
+        <p class="thank-you-content">Our team will be in touch soon.</p>
+    </div>
+
+    <!-- footer  -->
+    <div class="part7" id="part7">
+        <div id="footer">
+            <div class="seg1">
+                <div class="div1">
+                    <div>
+                        <h2>Leading the way <br> in adventure</h2>
+                    </div>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook" style="color: #000000;"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter" style="color: #000000;"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube" style="color: #000000;"></i></a>
+                    </div>
+                </div>
+                <hr>
+                <div class="div2">
+                    <h2>Join our <br> Newsletter</h2>
+                    <input type="text" placeholder="Enter your e-mail">
+                </div>
+            </div>
+            <hr style="margin-left: 20%;width: 100%;">
+            <div class="seg2">
+                <div class="left4">
+                    <h1>Travelo</h1>
+                    <p>Travel plans are not really an instrument themselves but a delivery mechanism or strategy for other mostly</p>
+                </div>
+                <div class="right4">
+                    <div>
+                        <h2>CONTACT</h2>
+                        <a href="#">+91 9330080944</a>
+                        <a href="#">subham.ss122@gmail.com</a>
+                        <a href="#">support@travelo.com</a>
+                    </div>
+                    <div>
+                        <h2>COMPANY</h2>
+                        <a href="#">About Us</a>
+                        <a href="#">Features</a>
+                        <a href="#">Careers</a>
+                    </div>
+                    <div>
+                        <h2>RESOURCE</h2>
+                        <a href="#">Press info</a>
+                        <a href="#">Customers</a>
+                        <a href="#">Reviews</a>
+                    </div>
+                </div>
+            </div>
+            <hr style="margin-left: 20%;width: 100%;">
+        </div>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/b2fe669610.js" crossorigin="anonymous"></script>
+<script src="/Scripts/product.js"></script>
+
+</html>
